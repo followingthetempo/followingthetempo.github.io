@@ -1,6 +1,12 @@
 ---
 ---
-
+aside#sidebar {
+  float: right;
+  width: 200px;
+  min-height: 504px;
+  padding-left: 20px;
+  font-size: 12px;
+}
 @import 'jekyll-theme-architect';
 
 header {
@@ -11,11 +17,5 @@ body {
 background-image: url("https://64.media.tumblr.com/d568a12bc1496c5a2b03ccefaa9eeef1/tumblr_inline_n1t6h3Dyh61qfc9y0.gif"); 
 }
 
-aside#sidebar {
-  float: right;
-  width: 200px;
-  min-height: 504px;
-  padding-left: 20px;
-  font-size: 12px;
-}
+
 
