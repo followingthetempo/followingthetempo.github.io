@@ -41,7 +41,8 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
-  height: 200px;
+  height: 150px;
+  background-size: auto;
   margin: 0 auto;
   
 }
@@ -80,14 +81,7 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
-  height: 58px;
-  padding-top: 22px;
-  padding-left: 68px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 23px;
-  line-height: 1.2;
-  color: #fff;
+  display: none;
 }
 a.button small {
   display: none;
