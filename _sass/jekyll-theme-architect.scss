@@ -41,7 +41,9 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
+  height: 200px;
   margin: 0 auto;
+  
 }
 
 #content-wrapper {
@@ -88,8 +90,7 @@ a.button {
   color: #fff;
 }
 a.button small {
-  display: block;
-  font-size: 11px;
+  display: none;
 }
 
 code, pre {
