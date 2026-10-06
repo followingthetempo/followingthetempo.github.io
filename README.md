@@ -8,7 +8,7 @@ Having studied computer science and mathematics, my interests lie in the interse
 
 Away from the computer, I'm an avid artist! Ever since I was little I've loved drawing cartoons, and now I manage a couple of webcomics. My dream is to make math-related educational comics/videos with my little characters!! I'm also a huge fan of music, having grown up playing classical piano and cello, and I am a huge fan of rhythm games. Also, I love animals and love games that feature little critters - I'm very active on Neopets, Flight Rising, and the Pokemon community!!
 
-
+<p><img src="https://github.com/followingthetempo/followingthetempo.github.io/blob/main/images/glaceon.png?raw=true" align="center"></p>
 
 
 
