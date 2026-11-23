@@ -25,6 +25,16 @@
         <section id="main-content">
           {{ content }}
         </section>
+      <!--testing blog feature-->
+        <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+    <!--end of test-->
 
         <aside id="sidebar">
           {% if site.show_downloads %}
