@@ -3,17 +3,21 @@ title: Frolicking in the Snow...
 layout: default
 ---
 <div id="intro">
-Eddy || 🏳️‍⚧️ He/him ||📍Ontario, Canada
-
-I just really like learning, tinkering, and creating! This is just a little space for my programming projects and thoughts.
+  <h1>Frolicking in the Snow...</h1>
+  <b>Eddy || 🏳️‍⚧️ He/him ||📍Ontario, Canada</b>
+  <p>
+  I just really like learning, tinkering, and creating! This is just a little space for my programming projects and thoughts.
+  </p>
 </div>
 
 <div id="home">
-  <h1>Blog Posts</h1>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
   </ul>
 </div>
 
